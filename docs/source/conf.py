@@ -4,6 +4,11 @@ import sys
 # Point Sphinx to your local modules if your notebooks import them
 sys.path.insert(0, os.path.abspath("../../gpsp-atlas"))
 
+print("SPHINX IMPORT PATH:", os.path.abspath("../../gpsp-atlas"))
+
+import gpsp_atlas_helper
+print("GPSP HELPER FILE:", gpsp_atlas_helper.__file__)
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
