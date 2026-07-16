@@ -1,7 +1,7 @@
 GPSPAtlasHelper
 ===============
-
-.. automodule:: gpsp_atlas_helper
+  
+.. autoclass:: gpsp_atlas_helper.GPSPAtlasHelper
    :members:
    :undoc-members:
    :show-inheritance:
