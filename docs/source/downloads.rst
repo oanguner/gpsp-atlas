@@ -4,7 +4,19 @@ Downloads
 GPSP Atlas Releases
 ===================
 
-The GPSP Atlas data products are distributed through Zenodo.
+The complete GPSP Atlas v1.0 release is archived on Zenodo and can be cited using
+
+**DOI:** `10.5281/zenodo.21403524 <https://doi.org/10.5281/zenodo.21403524>`_
+
+The release contains four atlas products and associated helper modules,
+comprising approximately 33 GB of compressed data products.
+
+.. note::
+
+   All atlas products are distributed as compressed ``.fits.gz`` archives.
+   For optimal performance, users are encouraged to extract the files prior
+   to analysis. The helper modules and all examples throughout this
+   documentation assume the use of uncompressed ``.fits`` files.
 
 Standard GPSP Atlases
 ---------------------
@@ -16,8 +28,8 @@ computed using two independent GALPROP-based interstellar radiation field
 ============================= ======== ==========
 Atlas Product                 Size     Download
 ============================= ======== ==========
-GPSP Atlas R12                11.2 GB  `Zenodo <https://zenodo.org/record/xxxxxx>`_
-GPSP Atlas F98                11.2 GB  `Zenodo <https://zenodo.org/record/xxxxxx>`_
+GPSP Atlas R12                11.2 GB  `Zenodo <https://zenodo.org/records/21403524/files/GPSP_Atlas_R12.fits.gz?download=1>`_
+GPSP Atlas F98                11.2 GB  `Zenodo <https://zenodo.org/records/21403524/files/GPSP_Atlas_F98.fits.gz?download=1>`_
 ============================= ======== ==========
 
 The R12 atlas uses the ISRF model of Robitaille et al. (2012), while
@@ -27,14 +39,14 @@ GPSP-LIV Atlases
 ----------------
 
 The GPSP-LIV atlases incorporate the modified subluminal Lorentz-Invariance
-Violation (LIV) pair-production cross section (Carmona et al. 2024) directly 
-into the line-of-sight propagation calculations.
+Violation (LIV) pair-production cross section introduced by Carmona et al.
+(2024) directly into the gamma-ray propagation calculations.
 
 ================================= ======== ==========
 Atlas Product                     Size     Download
 ================================= ======== ==========
-GPSP-LIV Atlas R12                5.5 GB   `Zenodo <https://zenodo.org/record/xxxxxx>`_
-GPSP-LIV Atlas F98                5.5 GB   `Zenodo <https://zenodo.org/record/xxxxxx>`_
+GPSP-LIV Atlas R12                5.5 GB   `Zenodo <https://zenodo.org/records/21403524/files/GPSP_Atlas_LIV_R12.fits.gz?download=1>`_
+GPSP-LIV Atlas F98                5.5 GB   `Zenodo <https://zenodo.org/records/21403524/files/GPSP_Atlas_LIV_F98.fits.gz?download=1>`_
 ================================= ======== ==========
 
 The LIV parameter space covers
@@ -45,18 +57,23 @@ The LIV parameter space covers
 
 with steps of 0.05.
 
-Software and Helper Modules
----------------------------
+Python Helper Modules
+---------------------
 
-======================== ======= ==========
-Module                   Size    Download
-======================== ======= ==========
-gpsp_atlas_helper.py     30.6 kB   `Zenodo <https://zenodo.org/record/xxxxxx>`_
-gpsp_liv_atlas_helper.py 20.9 kB   `Zenodo <https://zenodo.org/record/xxxxxx>`_
-======================== ======= ==========
+The following helper modules provide a high-level interface for loading,
+interpolating, and analyzing GPSP Atlas products.
+
+================================= ======== ==========
+Module                            Size     Download
+================================= ======== ==========
+gpsp_atlas_helper.py              30.6 kB  `Zenodo <https://zenodo.org/records/21403524/files/gpsp_atlas_helper.py?download=1>`_
+gpsp_liv_atlas_helper.py          20.9 kB  `Zenodo <https://zenodo.org/records/21403524/files/gpsp_liv_atlas_helper.py?download=1>`_
+================================= ======== ==========
 
 Example Datasets & Scripts
 --------------------------
 
-Example datasets and scripts used throughout the tutorials can be downloaded from the
-Example Datasets & Scripts section.
+Example datasets and scripts used throughout the tutorials can be obtained
+from the corresponding documentation pages and GitHub repository. These files
+are intended solely for demonstration purposes and are not required for the
+use of the full atlas products.
