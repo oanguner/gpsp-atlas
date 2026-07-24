@@ -66,6 +66,7 @@ GPSP Atlas Features
 
    example_datasets
    example_scripts
+   tutorial_notebooks
 
 .. toctree::
    :maxdepth: 2
