@@ -3,21 +3,20 @@ Quick Start
 
 .. note::
 
-   The examples presented throughout this documentation assume that the GPSP
-   Atlas FITS files have been extracted from the distributed ``.fits.gz``
-   archives prior to use. While the atlas products are distributed in compressed
-   form to reduce download size and storage requirements, the helper modules are
-   designed to operate on the uncompressed ``.fits`` files.
+   The GPSP Atlas products are distributed as compressed ``.fits.gz`` archives
+   to reduce download size and storage requirements. Both compressed
+   ``.fits.gz`` files and uncompressed ``.fits`` files can be opened directly
+   by the helper modules.
 
-   Using uncompressed FITS files allows direct memory-mapped access to the data
-   through Astropy, enabling efficient random access to the multi-dimensional
-   atlas without loading the entire dataset into memory. In contrast, compressed
-   ``.fits.gz`` files must first be decompressed during access, which can
-   significantly increase I/O overhead and may require substantially more
-   temporary memory resources for large atlas products.
+   However, for large atlas products, the use of uncompressed ``.fits`` files
+   is recommended. Astropy can efficiently memory-map uncompressed FITS files,
+   allowing random access to the multi-dimensional atlas without repeatedly
+   decompressing the underlying data. In contrast, access to compressed
+   ``.fits.gz`` files generally involves additional decompression overhead,
+   which may result in slower I/O performance for large datasets.
 
-   For optimal performance, users are therefore encouraged to extract the
-   downloaded ``.fits.gz`` archives before performing analyses.
+   For optimal performance during scientific analyses, users are therefore
+   encouraged to extract the downloaded ``.fits.gz`` archives before use.
 
 Loading a GPSP Atlas
 --------------------
