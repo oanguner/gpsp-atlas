@@ -5,6 +5,8 @@ GPSP Atlas Documentation
 for Very-High-Energy and Ultra-High-Energy
 Gamma-Ray Astronomy.**
 
+GPSP Atlas Paper --> `GPSP Paper <https://doi.org/10.3847/1538-4357/ae927b>`_
+
 The GPSP Atlas provides precalculated Galactic gamma-ray survival probabilities
 together with Python helper modules for scientific analyses of VHE and UHE
 gamma-ray sources.

@@ -11,24 +11,26 @@ All users of the GPSP Atlas should cite:
 
 ::
 
-   Angüner, E. O. et al. 2026,
-   GPSP Atlas: Galactic Photon Survival Probability Atlas
-   for VHE and UHE Gamma-Ray Astronomy,
-   ApJ, XXX, XXX
-   DOI: xx.xxxx/xxxxxx
+   Ekrem Oğuzhan Angüner 2026 ApJ 1008 61
+   DOI: 10.3847/1538-4357/ae927b
 
 BibTeX
 ^^^^^^
 
 .. code-block:: bibtex
 
-   @article{Anguner2026GPSP,
-     author = {Angüner, E. O.},
-     title = {GPSP Atlas: Galactic Photon Survival Probability Atlas
-              for VHE and UHE Gamma-Ray Astronomy},
-     journal = {ApJ},
+   @article{Angüner_2026,
+     doi = {10.3847/1538-4357/ae927b},
+     url = {https://doi.org/10.3847/1538-4357/ae927b},
      year = {2026},
-     doi = {xx.xxxx/xxxxxx}
+     month = {aug},
+     publisher = {The American Astronomical Society},
+     volume = {1008},
+     number = {1},
+     pages = {61},
+     author = {Angüner, Ekrem Oğuzhan},
+     title = {The GPSP Atlas: High-resolution Galactic Photon Survival Probability Atlas for Very-high- and Ultra-high-energy Gamma-Ray Astronomy},
+     journal = {The Astrophysical Journal}
    }
 
 ISRF Model References
