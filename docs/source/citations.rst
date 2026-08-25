@@ -19,7 +19,7 @@ BibTeX
 
 .. code-block:: bibtex
 
-   @article{Angüner_2026,
+   @article{Anguner_2026,
      doi = {10.3847/1538-4357/ae927b},
      url = {https://doi.org/10.3847/1538-4357/ae927b},
      year = {2026},
