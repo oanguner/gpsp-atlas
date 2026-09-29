@@ -20,8 +20,7 @@ parameter space
 
 and covers gamma-ray energies from 1 TeV to 10 PeV.
 
-Two independent GALPROP-based interstellar radiation field (ISRF) models are
-provided:
+The atlas is constructed using two independent GALPROP-based interstellar radiation field (ISRF) models:
 
 * R12 (Robitaille et al. 2012) --> `R12 Paper <https://doi.org/10.1051/0004-6361/201219073>`_
 * F98 (Freudenreich 1998) --> `F98 Paper <https://doi.org/10.1086/305065>`_

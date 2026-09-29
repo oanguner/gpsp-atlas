@@ -23,7 +23,7 @@ The standard GPSP atlas is a four-dimensional grid:
 
 where:
 
-* **Galactic Longitude** (:math:`l`): Covers the full Galactic circle from :math:`0.0^{\circ}` to :math:`359.9.1^{\circ}` with a step size of :math:`0.1^{\circ}` (3600 bins).
+* **Galactic Longitude** (:math:`l`): Covers the full Galactic circle from :math:`0.0^{\circ}` to :math:`359.9^{\circ}` with a step size of :math:`0.1^{\circ}` (3600 bins).
 * **Galactic Latitude** (:math:`b`): Focuses on the Galactic plane from :math:`-5.0^{\circ}` to :math:`5.0^{\circ}` with a step size of :math:`0.1^{\circ}` (101 bins).
 * **Distance** (:math:`d`): Extends from 0.1 kpc to 20.0 kpc with a linear step of 0.1 kpc (200 bins).
 * **Energy** (:math:`E`): Covers the range from 1 TeV to 10 PeV, sampled with 20 logarithmically equal bins per decade (81 energy bins). Gamma-ray energy unit used in the GPSP atlas is (eV).
@@ -40,7 +40,7 @@ The LIV atlas adds an additional dimension:
 
 where λ denotes the LIV scale parameter.
 
-* **Galactic Longitude** (:math:`l`): Covers the full Galactic circle from :math:`0.0^{\circ}` to :math:`359.9.1^{\circ}` with a step size of :math:`0.5^{\circ}` (720 bins).
+* **Galactic Longitude** (:math:`l`): Covers the full Galactic circle from :math:`0.0^{\circ}` to :math:`359.9^{\circ}` with a step size of :math:`0.5^{\circ}` (720 bins).
 * **Galactic Latitude** (:math:`b`): Focuses on the Galactic plane from :math:`-5.0^{\circ}` to :math:`5.0^{\circ}` with a step size of :math:`1.0^{\circ}` (7 bins).
 * **Distance** (:math:`d`): Extends from 0.1 kpc to 20.0 kpc with a linear step of 0.1 kpc (200 bins).
 * **Energy** (:math:`E`): Covers the range from 100 TeV to 10 PeV, sampled with 20 logarithmically equal bins per decade (41 energy bins). Gamma-ray energy unit used in the GPSP-LIV atlas is (eV).
